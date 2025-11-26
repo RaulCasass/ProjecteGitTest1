@@ -52,5 +52,8 @@ public class Punto {
         this.y -= p.getY();
     }
     
-    
+    public void suma(Punto p){
+        this.x += p.getX();
+        this.y += p.getY();
+    }
 }
